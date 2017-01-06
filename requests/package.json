@@ -1,0 +1,22 @@
+{
+  "name": "requests",
+  "version": "0.0.1",
+  "description": "Improvement requests management",
+  "main": "api.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImproveMyTown/improvements.git"
+  },
+  "keywords": [
+    "requests"
+  ],
+  "author": "alayor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImproveMyTown/improvements/issues"
+  },
+  "homepage": "https://github.com/ImproveMyTown/improvements#readme"
+}
