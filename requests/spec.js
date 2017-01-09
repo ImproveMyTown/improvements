@@ -1,19 +1,8 @@
-var superagent = require('superagent')
-var expect = require('expect.js')
+var api = require('./api')
 
 describe('improvements', function(){
-  it('posts an improvement request', function(done){
-    superagent.post('http://localhost:3000/improvements/requests')
-      .send({requester: 'John Smith'
-        , email: 'john@rpjs.co'
-        , description: 'Improve wasteland in Main St.'
-      })
-      .end(function(e, res){
-        expect(e).to.eql(null)
-        expect(res.body.length).to.eql(1)
-        expect(res.body[0]._id.length).to.eql(24)
-        res.body[0]._id
-        done()
-      })
-  })
-})
+  it('saves a request in bd', function(done) {
+     api.func();
+     done();
+  });
+});
