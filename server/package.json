@@ -1,0 +1,19 @@
+{
+  "name": "service",
+  "version": "0.0.1",
+  "description": "Api Server supported by express",
+  "main": "service.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImproveMyTown/improvements.git"
+  },
+  "author": "alayor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImproveMyTown/improvements/issues"
+  },
+  "homepage": "https://github.com/ImproveMyTown/improvements#readme"
+}
