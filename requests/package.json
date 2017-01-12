@@ -2,7 +2,7 @@
   "name": "requests",
   "version": "0.0.1",
   "description": "Improvement requests management",
-  "main": "api.js",
+  "main": "api/api.js",
   "scripts": {
     "test": "node test.js"
   },

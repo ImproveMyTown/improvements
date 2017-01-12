@@ -1,0 +1,11 @@
+{
+  "name": "db",
+  "version": "1.0.0",
+  "description": "db module for requests",
+  "main": "db.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "author": "alayor",
+  "license": "ISC"
+}
