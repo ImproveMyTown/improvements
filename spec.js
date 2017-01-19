@@ -6,7 +6,7 @@ describe('improvements', function(){
     superagent.post('http://localhost:3000/improvements/requests')
       .send({requester: 'John Smith'
         , email: 'john@rpjs.co'
-        , description: 'Improve wasteland in Main St.'
+        , description: 'Remove wasteland in Main St.'
       })
       .end(function(e, res){
         expect(e).to.eql(null)

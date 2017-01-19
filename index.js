@@ -1,2 +1,2 @@
-var service = require('./server/service.js');
-service.start();
+var server = require('./server');
+server.start();

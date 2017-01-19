@@ -1,15 +1,11 @@
-var Mocha = require('mocha'),
-    api = require('./api.js'),
-    service = require('../server/service.js');
+var Mocha = require('mocha')
 
-service.addMapping(api);
-service.start();
 var mocha = new Mocha();
-mocha.addFile(__dirname + '/spec.js');
+mocha.addFile(__dirname + '/db/spec.js');
+mocha.addFile(__dirname + '/api/spec.js');
 
 mocha.run(function(failures){
   process.on('exit', function () {
     process.exit(failures);
   });
-  api.service.stop();
 });
