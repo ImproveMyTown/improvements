@@ -12,11 +12,12 @@
     "url": "https://github.com/ImproveMyTown/improvements.git"
   },
   "author": "alayor",
-  "license": "TBD",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/ImproveMyTown/improvements/issues"
   },
   "dependencies": {
+    "aws-sdk": "^2.8.0",
     "body-parser": "^1.0.2",
     "express": "4.10.1",
     "mongoskin": "1.4.4",
