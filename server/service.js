@@ -17,6 +17,11 @@ var stop = function () {
     process.exit();
 }
 
+
+app.get("/", function(req, res, next) {
+    return res.send("Hello World!");
+});
+
 var addMapping = function (api) {
  app[api.method](api.route, api.func);
 }
