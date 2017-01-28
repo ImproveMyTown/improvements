@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(logger('dev'));
 
 var start = function () {
-   this.server = app.listen(3000, function(){
+   this.server = app.listen(process.env.PORT || 3000, function(){
      console.log('Express server listening on port 3000')
   });
 }
